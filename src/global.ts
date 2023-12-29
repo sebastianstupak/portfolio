@@ -14,12 +14,16 @@ const GlobalStyles = createGlobalStyle`
 
 	body {
 		height: 100vh;
+		max-height: 100vh;
+		overflow: hidden;
 		background-color: black;
 	}
 
 	#root {
 		margin: 0 auto;
-		height: 100%;
+		height: 100vh;
+		max-height: 100vh;
+		overflow: hidden;
 	}
 
 	.fade {
