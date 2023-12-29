@@ -10,6 +10,8 @@ import NavDialog from './components/NavDialog';
 const LayoutContainer = styled.div`
   height: 100%;
   width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;

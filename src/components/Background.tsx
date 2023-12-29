@@ -28,12 +28,17 @@ const opacityLoop = keyframes`
 
 const CanvasContainer = styled.div`
   height: 100%;
+  max-height: 100vh;
+  overflow: hidden;
   width: 100%;
   background-color: black;
 `;
 
 const CanvasWrapper = styled.div`
   height: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+
   width: 100%;
 
   opacity: 0.5;
@@ -161,7 +166,11 @@ export const Background: React.FC = () => {
       <CanvasWrapper>
         <Canvas
           dpr={dpr}
-          style={{ background: 'black' }}
+          style={{
+            background: 'black',
+            maxHeight: '100vh',
+            overflow: 'hidden'
+          }}
           orthographic
           camera={{ position: [0, 0, 50], zoom: 100 }}
         >

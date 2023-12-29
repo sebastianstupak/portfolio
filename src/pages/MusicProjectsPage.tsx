@@ -232,7 +232,7 @@ const projects: MusicProject[] = [
     artist: 'Osaki Seiichi',
     title: '???',
     year: 'Soon',
-    cover: '/images/music-next-album-cover.jpeg',
+    cover: `${window.location.origin}/images/music-next-album-cover.jpeg`,
     collaborators: ['Sebastián Stupák', 'Peter Petrek']
   },
   {
@@ -240,7 +240,7 @@ const projects: MusicProject[] = [
     artist: 'Osaki Seiichi',
     title: 'The Tale Of A Long Forgotten Sunken City',
     year: '2022',
-    cover: '/images/music-sunken-city-cover.jpeg',
+    cover: `${window.location.origin}/images/music-sunken-city-cover.jpeg`,
     collaborators: ['Sebastián Stupák', 'Peter Petrek'],
     links: {
       spotify: 'https://open.spotify.com/album/6enmp9taTmsESY2yQCGQWz',
@@ -253,7 +253,7 @@ const projects: MusicProject[] = [
     artist: '.ian Motion',
     title: 'Sessions Vol. I',
     year: '2021',
-    cover: '/images/music-sessions-vol-i-cover.jpeg',
+    cover: `${window.location.origin}/images/music-sessions-vol-i-cover.jpeg`,
     collaborators: ['Peter Petrek'],
     links: {
       spotify: 'https://open.spotify.com/album/4RiH77Qp2jEiUE6LAJVgms',
@@ -265,7 +265,7 @@ const projects: MusicProject[] = [
     artist: '.ian Motion',
     title: 'Blank Sky',
     year: '2020',
-    cover: '/images/music-blank-sky-cover.jpeg',
+    cover: `${window.location.origin}/images/music-blank-sky-cover.jpeg`,
     links: {
       spotify:
         'https://open.spotify.com/album/6AP9TL6DZ7QTnTu3j9oz4N?si=sIab19ZbTuK1FZcjg1z9pg',

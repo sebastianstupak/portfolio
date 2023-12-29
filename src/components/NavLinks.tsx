@@ -102,7 +102,7 @@ const NavLinks: React.FC<Props> = ({ isDialog, setShowNavDialog }) => {
         </NavIndicatorContainer>
       ) : null}
 
-      <NavLinksWrapper>
+      <NavLinksWrapper $isDialog={isDialog}>
         <NavLink
           to='https://blog.sebastianstupak.com/'
           target='_blank'
